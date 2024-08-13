@@ -12,3 +12,10 @@ print("Name:", name)
 print("Age:",age)
 
 print("hello my name is",name,"and my age is",age)
+
+# --- output formating --- #
+print("hello my name is {} and my age is {}".format(name,age))
+
+# -- python input --#
+x = input("Enter your name:")
+print('My name is',x)
